@@ -57,7 +57,7 @@ elif selected=="Predicción":
     
     fecha = st.date_input("Selecciona una fecha:")
     
-    if st.button("Generar Número"):
+    if st.button("Generar predicción"):
         with st.spinner("Calculando los posibles accidentes..."):
             
             time.sleep(5)
